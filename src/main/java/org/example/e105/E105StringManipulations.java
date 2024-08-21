@@ -10,8 +10,13 @@ public class E105StringManipulations {
         // Prompt the user to input a string
         System.out.print("In:");
         String word = inp.nextLine();
-
-        // Use a for loop to iterate through the string and print only the vowels
-        // (Your code goes here)
+        for (int i = 0; i < word.length(); i++) {
+            char c =Character.toLowerCase((word.charAt(i)));
+            if (c=='a'||c=='e'||c=='i'||c=='c'||c=='o'||c=='u') {
+                System.out.print(c);
+            }
+            // Use a for loop to iterate through the string and print only the vowels
+            // (Your code goes here)
+        }
     }
 }

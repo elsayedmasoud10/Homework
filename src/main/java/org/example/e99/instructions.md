@@ -16,7 +16,7 @@ In this project, you will write code to take a string input and check if it is a
 
 2. **Create a Scanner Object**
     - Create a `Scanner` object to read input from the console.
-
+       
 3. **Prompt the User for Input**
     - Prompt the user to input a string.
 
@@ -32,7 +32,7 @@ In this project, you will write code to take a string input and check if it is a
 Please enter a string:
 racecar
 true
-```
+
 
 ```
 Please enter a string:

@@ -13,5 +13,8 @@ public class E103StringManipulations {
         
         // Use a for loop to iterate through the string and print each character separated by spaces on the same line
         // (Your code goes here)
+        for (int i = 0; i < s.length(); i++) {
+            System.out.print(s.charAt(i)+" ");
+        }
     }
 }
