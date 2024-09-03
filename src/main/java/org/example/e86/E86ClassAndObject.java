@@ -3,11 +3,6 @@ package org.example.e86;
 public class E86ClassAndObject {
     public static void main(String[] args) {
         // Create a class named 'Student'
-       Student student1=new Student();
-       student1.name="John";
-       student1.roll_no=2;
-        student1.setName();
-        student1.setRoll_no();
 
         // Declare a String variable named 'name' and an integer variable named 'roll_no'
 
